@@ -1,0 +1,95 @@
+body {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+.galery{
+  display: flex;
+  background-color: rgb(212, 208, 208);
+  position: relative;
+  height: 500px;
+}
+#leftArrow {
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: block;
+}
+#rightArrow {
+  position: relative;
+  transform: scaleX(-1);
+  padding-left: 20px;
+  padding-right: 20px;
+  display: block;
+}
+#firstPicture {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.description {
+  width: 77%;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  background-color: rgb(75, 72, 72);
+  opacity: 0.8;
+  position: absolute;
+  left: 75px;
+  bottom: 10px;
+}
+#photoTitle {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  color: white;
+  bottom: 90px;
+}
+#photoDescription {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+  color: white;
+  bottom: 28px;
+}
+button {
+  border: none;
+  background-color: rgb(212, 208, 208);
+}
+button:hover {
+  background-color: rgb(135, 141, 137);
+  cursor: pointer;
+
+}
+.container {
+  width: 750px;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 15px;;
+  display: flex;
+  justify-content: space-between;
+}
+.firstThumbnail {
+  height: 60px;
+  width: 80px;
+  border: solid 4px rgb(212, 208, 208);
+  box-shadow: 0px 10px 10px;
+  position: relative;
+  display: block;
+}
+.firstThumbnail:hover {
+  border: solid 4px rgb(135, 141, 137);
+  height: 20%;
+  width: 20%;
+  cursor: pointer;
+}
+
+
+
+/*tooltip:hover {
+  visibility: visible;
+  border: solid 4px rgb(135, 141, 137);
+  height: 20%;
+  width: 20%;
+}*/
